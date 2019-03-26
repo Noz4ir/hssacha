@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(pict/hp.jpg) no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+.btn.btn-round {
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  padding: 10px 30px;
+}
+
+.text-gradient {
+  background-color: #8EC8FC;
+  background-image: linear-gradient(90deg, #8EC8FC 0%, #8EC5FC 55%, #E0C3FC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient-primary {
+  background-color: #8EC8FC;
+  background-image: linear-gradient(90deg, #8EC8FC 0%, #8EC5FC 55%, #E0C3FC 100%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border: 0;
+  transition: all ease-out .3s;
+  -webkit-transition: all ease-out .3s;
+  -moz-transition: all ease-out .3s;
+  -ms-transition: all ease-out .3s;
+  -o-transition: all ease-out .3s;
+}
+
+.btn-gradient-primary-outlined {
+  background-color: transparent;
+  border: 1px solid #8EC5FC;
+  color: #8EC5FC;
+  transition: background-color ease-out .3s;
+  -webkit-transition: background-color ease-out .3s;
+  -moz-transition: background-color ease-out .3s;
+  -ms-transition: background-color ease-out .3s;
+  -o-transition: background-color ease-out .3s;
+}
+
+.btn-gradient-primary-outlined:hover {
+  background-color: #8EC8FC;
+  background-image: linear-gradient(90deg, #8EC8FC 0%, #8EC5FC 55%, #E0C3FC 100%);
+  color: #fff;
+  border: none;
+  padding: 8px 26px;
+}
+
+.btn-gradient-primary:not([disabled]):not(.disabled):active,
+.btn-gradient-primary:not([disabled]):not(.disabled).active,
+.show>.btn-gradient-primary.dropdown-toggle {
+  background-color: #8EC8FC;
+  background-image: linear-gradient(90deg, #8EC8FC 0%, #8EC5FC 55%, #E0C3FC 100%);
+}
+
+.btn-gradient-primary:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.bf{
+  width:20%;
+  margin-bottom: 200px;
+  margin-right: -100px;
+  transform: rotate(330deg);
+}
+.start{
+  width: 400px;
+  height: 50px;
+}
+.d{
+  margin-top: 280px;
+  margin-left: 300px;
+}
+@media (max-width: 575.98px) {
+  body{
+    background: none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+  .start{
+    width: 200px;
+    }
+  .d{
+    margin-top:200px;
+    margin-left: -30px;
+    }
+  .bf{
+    width:40%;
+    margin-bottom: 160px;
+    margin-right: -50px;
+  }
+  }
+@media (max-width: 767.98px) {
+  .cirleimg{
+      width : 30%;
+ }
+@media (max-width: 991.98px) {
+  .cirleimg{
+      width : 30%;
+ }
+@media (max-width: 1199.98px) {
+  .cirleimg{
+      width : 30%;
+ }
