@@ -1,6 +1,7 @@
 body{
   background: no-repeat;
-  background-image: linear-gradient(#8EC5FC,#E0C3FC);
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
   background-size: cover;
   overflow-x: hidden;
 
@@ -210,15 +211,15 @@ transform: translate(-100px,50px);
 .foote{
   padding: 5px;
   position: absolute;
-
   height: auto;
   text-align: center;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.2);
 
 }
 .foote h6{
-  color: white;
+  color: black;
+  font-family: myFirstFont
 }
 .f{
   opacity: 0;
