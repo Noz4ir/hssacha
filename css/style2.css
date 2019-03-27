@@ -193,9 +193,9 @@ transform: translate(-100px,50px);
 .wish h1{
   font-family: myFirstFont;
 }
-.f li{
+.f h4{
   font-family: myFirstFontt;
-  list-style-type: none;
+
 
 }
 .g img{
@@ -205,7 +205,7 @@ transform: translate(-100px,50px);
   font-family: myFirstFont;
 }
 .g{
-  height: 640px;
+  height: auto;
 }
 .foote{
   padding: 5px;
@@ -235,11 +235,11 @@ transform: translate(-100px,50px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
-  transition: all ease-out 1.8;
-  -webkit-transition: all ease-out 1.8;
-  -moz-transition: all ease-out 1.8;
-  -ms-transition: all ease-out 1.8;
-  -o-transition: all ease-out 1.8;
+  transition: all ease-out 1.8s;
+  -webkit-transition: all ease-out 1.8s;
+  -moz-transition: all ease-out 1.8s;
+  -ms-transition: all ease-out 1.8s;
+  -o-transition: all ease-out 1.8s;
 }
 .fi{
   opacity: 0;
@@ -256,11 +256,11 @@ transform: translate(-100px,50px);
   -moz-transform: translateX(0px);
   -ms-transform: translateX(0px);
   -o-transform: translateX(0px);
-  transition: all ease-out 1.8;
-  -webkit-transition: all ease-out 1.8;
-  -moz-transition: all ease-out 1.8;
-  -ms-transition: all ease-out 1.8;
-  -o-transition: all ease-out 1.8;
+  transition: all ease-out 1.8s;
+  -webkit-transition: all ease-out 1.8s;
+  -moz-transition: all ease-out 1.8s;
+  -ms-transition: all ease-out 1.8s;
+  -o-transition: all ease-out 1.8s;
 }
 @font-face {
   font-family: myFirstFontt;
@@ -271,10 +271,7 @@ transform: translate(-100px,50px);
   src: url(font/Flaming.otf);
 }
 @media (max-width: 575.98px) {
-  .cirleimg{
-      width : 30%;
 
-    }
     .judul{
       margin-top: 200px;
     }
@@ -285,15 +282,38 @@ transform: translate(-100px,50px);
       margin-left: 90px;
     }
   }
-@media (max-width: 767.98px) {
-  .cirleimg{
-      width : 30%;
+@media (min-width: 767.98px) {
+  .e{
+    margin-top: 400px;
+
+  }
+  .plane{
+    width: 40%;
+    margin-left: 190px;
+    margin-top: -50px;
+  }
+  .judul h1{
+    font-size: 70px;
+  }
+  .intro h1{
+    font-size: 70px;
+  }
+  .gallery h1{
+    font-size: 70px;
+  }
+  .gallery hr{
+    width: 500px;
+    margin-top: 20px;
+  }
+  .cake{
+    width: 30%;
+  }
+
  }
 @media (max-width: 991.98px) {
   .cirleimg{
       width : 30%;
  }
-@media (max-width: 1199.98px) {
-  .cirleimg{
-      width : 30%;
+@media (min-width: 1199.98px) {
+
  }
